@@ -1,0 +1,110 @@
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+body{
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+  /*color: #fff;*/
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Oswald', sans-serif;
+}
+.container{
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+}
+.header{
+  width: 100%;
+  height: 100px;
+  max-height: 100%;
+  line-height: 100px;
+  background-color: #202020;
+  display: block; 
+}
+.brand .logoText{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #fefefe;
+  text-decoration: none;
+}
+.flex-menu{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.myNav ul{
+  padding: 0;
+  margin: 0;
+}
+.myNav ul li{
+  display: inline-block;
+  list-style: none;
+}
+.myNav ul li.nav-item .nav-link{
+  font-family: 'Oswald', sans-serif;
+  color: #fefefe;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 6px 15px;
+  text-decoration: none;
+  transition: background 0.3s ease-out;
+}
+.myNav ul li.nav-item .nav-link.active,
+.myNav ul li.nav-item .nav-link:hover{
+  background: #e25050;
+}
+.container-fluid{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
